@@ -1,5 +1,6 @@
 import Img1 from "./../assets/Dragon-Roll-12.jpg"
 import Img2 from "./../assets/1-sushi.jpg"
+import Img3 from "./../assets/removebg-preview.png"
 
 export default function Footer (){
   return (
@@ -13,7 +14,7 @@ export default function Footer (){
           <p className="text-gray-600 mb-6">
             Learn easy, delicious, and healthy recipes you can cook at home with simple ingredients.
           </p>
-          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">
+          <button className="bg-yellow-500 text-white px-6 py-3 rounded-full hover:bg-yellow-300 hover:text-black transition">
             Learn More
           </button>
         </div>
@@ -48,7 +49,7 @@ export default function Footer (){
           </div>
 
           <div className="text-center mt-10">
-            <button className="bg-black text-white px-6 py-3 rounded-full">
+            <button className="bg-yellow-500 hover:bg-yellow-300 hover:text-black text-white px-6 py-3 rounded-full">
               Visit Instagram
             </button>
           </div>
@@ -90,7 +91,7 @@ export default function Footer (){
               placeholder="Your email address"
               className="flex-1 px-4 py-3 rounded-full border focus:outline-none"
             />
-            <button className="bg-black text-white px-6 py-3 rounded-full">
+            <button className="bg-yellow-500 hover:bg-yellow-300 hover:text-black text-white px-6 py-3 rounded-full">
               Subscribe
             </button>
           </div>
@@ -125,6 +126,12 @@ export default function Footer (){
               <li>Privacy Policy</li>
             </ul>
           </div>
+           <div>
+            <div className="flex gap-4 text-lg">
+              <img src={Img3}/>
+            </div>
+
+          </div>
 
           <div>
             <h4 className="text-white font-semibold mb-3">Follow Us</h4>
@@ -134,8 +141,10 @@ export default function Footer (){
               <span>📸</span>
               <span>🐦</span>
             </div>
+
           </div>
         </div>
+        
 
         <div className="text-center text-sm text-gray-500 mt-10">
           © 2026 Foodieland. All rights reserved.

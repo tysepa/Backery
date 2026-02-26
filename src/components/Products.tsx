@@ -22,7 +22,7 @@ export default function Products() {
                 <p className="text-sm">{p.price}</p>
                 <p className="text-xs text-gray-400">{p.name}</p>
               </div>
-              <button className="bg-orange-500 text-xs px-3 py-1 rounded">
+              <button className="bg-yellow-500 text-xs px-3 py-1 rounded">
                 Add
               </button>
             </div>

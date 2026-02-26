@@ -12,7 +12,7 @@ export default function Explore() {
         {categories.map((c) => (
           <span
             key={c}
-            className="cursor-pointer hover:text-orange-500 border-b border-transparent hover:border-orange-500"
+            className="cursor-pointer hover:text-yellow-500 border-b border-transparent hover:border-yellow-500"
           >
             {c}
           </span>
